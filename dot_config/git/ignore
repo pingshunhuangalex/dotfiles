@@ -1,0 +1,13 @@
+# OS generated files
+**/.DS_Store
+
+# Temporary files
+*~
+*.swo
+*.swp
+
+# Logs
+*.log
+
+# Package dependencies
+node_modules/

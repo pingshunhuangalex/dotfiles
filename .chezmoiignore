@@ -1,0 +1,43 @@
+# Dotfiles only
+![^.]*
+
+# OS (MacOS)
+.cache/
+.CFUserTextEncoding
+.local/
+.Trash/
+**/.DS_Store
+
+# SSH
+.ssh/agent/
+.ssh/known_hosts*
+
+# Bitwarden
+.bitwarden-ssh-agent.sock
+
+# Chezmoi (Recreated via template)
+.config/chezmoi/
+
+# Dell (Display and Peripheral Manager)
+.zshDDPMenv
+
+# Karabiner
+.config/karabiner/assets/
+.config/karabiner/automatic_backups/
+
+# MPV (IINA)
+.config/mpv/
+
+# Raycast
+.config/raycast/
+
+# VS Code
+.copilot/
+.vscode/
+
+# Wailbrew
+.wailbrew/
+
+# Zsh
+.config/zsh/.zsh_sessions/
+.config/zsh/.zsh_history

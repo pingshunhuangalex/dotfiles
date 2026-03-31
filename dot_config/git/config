@@ -1,0 +1,66 @@
+[branch]
+	sort = -committerdate
+[checkout]
+	defaultRemote = origin
+[color]
+    ui = true
+[commit]
+    verbose = true
+[core]
+    pager = delta
+[delta]
+    dark = true
+	line-numbers = true
+    navigate = true
+    side-by-side = true
+[diff]
+    algorithm = histogram
+    colorMoved = default
+    context = 10
+	renames = true
+    submodule = log
+[fetch]
+    fsckobjects = true
+	prune = true
+	pruneTags = true
+	all = true
+[help]
+    autocorrect = 10
+[init]
+    defaultbranch = main
+[interactive]
+    diffFilter = delta --color-only
+[log]
+    date = iso
+[merge]
+    conflictstyle = zdiff3
+[pull]
+    rebase = true
+[push]
+	autoSetupRemote = true
+	followTags = true
+[rebase]
+    autosquash = true
+    autostash = true
+    missingCommitsCheck = error
+    updateRefs = true
+[receive]
+    fsckobjects = true
+[rerere]
+	enabled = true
+	autoupdate = true
+[status]
+	submoduleSummary = true
+[submodule]
+	recurse = true
+[tag]
+	sort = version:refname
+[transfer]
+    fsckobjects = true
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[user]
+    name = Pingshun Huang
+    email = alex.g.huang@gmail.com
+[web]
+	browser = google-chrome

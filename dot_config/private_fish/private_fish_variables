@@ -1,0 +1,51 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export STARSHIP_CONFIG:/Users/pingshunhuangalex/\x2econfig/starship/starship\x2etoml
+SETUVAR --export STARSHIP_CONFIG_HOME:/Users/pingshunhuangalex/\x2econfig/starship
+SETUVAR --export STARSHIP_TRANSIENT_CONFIG:/Users/pingshunhuangalex/\x2econfig/starship/starship\x2dtransient\x2etoml
+SETUVAR --export XDG_CACHE_HOME:/Users/pingshunhuangalex/\x2ecache
+SETUVAR --export XDG_CONFIG_HOME:/Users/pingshunhuangalex/\x2econfig
+SETUVAR --export XDG_DATA_HOME:/Users/pingshunhuangalex/\x2elocal/share
+SETUVAR --export ZDOTDIR:/Users/pingshunhuangalex/\x2econfig/zsh
+SETUVAR --export ZSH_CACHE_DIR:/Users/pingshunhuangalex/\x2ecache/zsh
+SETUVAR __fish_initialized:4300
+SETUVAR fish_color_autosuggestion:969896
+SETUVAR fish_color_cancel:\x2d\x2dreverse
+SETUVAR fish_color_command:c792ea
+SETUVAR fish_color_comment:4f6875
+SETUVAR fish_color_cwd:c3e88d
+SETUVAR fish_color_cwd_root:f07178
+SETUVAR fish_color_end:89ddf3
+SETUVAR fish_color_error:ff5370
+SETUVAR fish_color_escape:56b6c2
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:eeffff
+SETUVAR fish_color_host_remote:ffcb6b
+SETUVAR fish_color_keyword:c792ea
+SETUVAR fish_color_normal:eeffff
+SETUVAR fish_color_operator:ffcb6b
+SETUVAR fish_color_option:ffcb6b
+SETUVAR fish_color_param:82aaff
+SETUVAR fish_color_quote:c3e88d
+SETUVAR fish_color_redirection:f78c6a
+SETUVAR fish_color_search_match:c792ea\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:c792ea\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:ff5370
+SETUVAR fish_color_user:c3e88d
+SETUVAR fish_color_valid_path:c3e88d\x1e\x2d\x2dunderline\x3dsingle
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_key_bindings:fish_vi_key_bindings
+SETUVAR fish_pager_color_background:\x1d
+SETUVAR fish_pager_color_completion:969896
+SETUVAR fish_pager_color_description:4f6875
+SETUVAR fish_pager_color_prefix:eeffff\x1e\x2d\x2dbold\x1e\x2d\x2dunderline\x3dsingle
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dc792ea
+SETUVAR fish_pager_color_secondary_background:\x1d
+SETUVAR fish_pager_color_secondary_completion:\x1d
+SETUVAR fish_pager_color_secondary_description:\x1d
+SETUVAR fish_pager_color_secondary_prefix:\x1d
+SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_pager_color_selected_completion:\x1d
+SETUVAR fish_pager_color_selected_description:\x1d
+SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/opt/homebrew/bin

@@ -1,6 +1,7 @@
 ### Global Environment Variables ###
 
-
+# Bitwarden
+set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 
 ### NOTE: Backup ONLY, not to be loaded by terminal
 ### Universal Environment Variables ###
@@ -47,8 +48,8 @@
 # set -U fish_color_param 82aaff
 # set -U fish_color_quote c3e88d
 # set -U fish_color_redirection f78c6a
-# set -U fish_color_search_match c792ea --background=brblack
-# set -U fish_color_selection c792ea --background=brblack
+# set -U fish_color_search_match c792ea --background=black
+# set -U fish_color_selection c792ea --background=black
 # set -U fish_color_status ff5370
 # set -U fish_color_user c3e88d
 # set -U fish_color_valid_path c3e88d --underline=single
@@ -56,12 +57,12 @@
 # set -U fish_pager_color_completion 969896
 # set -U fish_pager_color_description 4f6875
 # set -U fish_pager_color_prefix eeffff --bold --underline=single
-# set -U fish_pager_color_progress brwhite --bold --background=c792ea
+# set -U fish_pager_color_progress c792ea --bold
 # set -U fish_pager_color_secondary_background
 # set -U fish_pager_color_secondary_completion
 # set -U fish_pager_color_secondary_description
 # set -U fish_pager_color_secondary_prefix
-# set -U fish_pager_color_selected_background --background=brblack
+# set -U fish_pager_color_selected_background --background=black
 # set -U fish_pager_color_selected_completion
 # set -U fish_pager_color_selected_description
 # set -U fish_pager_color_selected_prefix

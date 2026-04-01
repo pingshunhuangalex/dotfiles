@@ -1,2 +1,3 @@
 Host *
   IdentityAgent ~/.bitwarden-ssh-agent.sock
+  HashKnownHosts yes

@@ -5,6 +5,7 @@
 [color]
     ui = true
 [commit]
+    gpgsign = true
     verbose = true
 [core]
     pager = delta
@@ -20,10 +21,14 @@
 	renames = true
     submodule = log
 [fetch]
+    all = true
     fsckobjects = true
 	prune = true
 	pruneTags = true
-	all = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
 [help]
     autocorrect = 10
 [init]
@@ -47,8 +52,8 @@
 [receive]
     fsckobjects = true
 [rerere]
+    autoupdate = true
 	enabled = true
-	autoupdate = true
 [status]
 	submoduleSummary = true
 [submodule]
@@ -60,7 +65,8 @@
 [url "git@github.com:"]
     insteadOf = https://github.com/
 [user]
-    name = Pingshun Huang
     email = alex.g.huang@gmail.com
+    name = Pingshun Huang
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEHI5gtF8xQQ0zXCn4ErTi18qt8y3eB7egYy9DyclnCs
 [web]
 	browser = google-chrome

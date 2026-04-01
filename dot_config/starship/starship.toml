@@ -403,7 +403,6 @@ format = '[$symbol( $version)( \($switch_indicator$switch_name\)) ]($style)'
 
 [odin]
 symbol = '󰰖'
-version_format = '${raw}'
 style = 'fg:crust bg:sky'
 format = '[$symbol( $version) ]($style)'
 

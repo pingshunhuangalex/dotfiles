@@ -1,4 +1,9 @@
 {{- $email := "alex.g.huang@gmail.com" -}}
+{{- $shell := "/opt/homebrew/bin/fish" -}}
+
+[cd]
+    command = {{ $shell | quote }}
+    args = ["-l", "-i"]
 
 [data]
     email = {{ $email | quote }}

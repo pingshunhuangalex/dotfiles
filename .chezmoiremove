@@ -1,2 +1,6 @@
 # Legacy Zsh sessions
+.zcompdump
 .zsh_sessions/
+
+# Legacy Vim info
+.viminfo

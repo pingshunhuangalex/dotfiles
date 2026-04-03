@@ -31,6 +31,10 @@
 # Raycast
 .config/raycast/
 
+# Vim
+.config/vim/viminfo
+.viminfo
+
 # VS Code
 .copilot/
 .vscode/
@@ -39,5 +43,8 @@
 .wailbrew/
 
 # Zsh
+.config/zsh/.zcompdump
 .config/zsh/.zsh_sessions/
 .config/zsh/.zsh_history
+.zcompdump
+.zsh_sessions/

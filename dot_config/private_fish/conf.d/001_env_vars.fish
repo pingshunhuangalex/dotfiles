@@ -22,6 +22,9 @@ set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 # # Ripgrep
 # set -Ux --unpath RIPGREP_CONFIG_PATH "$XDG_CONFIG_HOME/ripgrep/config"
 
+# # Fuzzy Finder
+# set -Ux FZF_DEFAULT_OPTS_FILE "$XDG_CONFIG_HOME/fzf/config"
+
 # # Zsh
 # # NOTE: Fish doesn't use Zsh variables. Keep them for other apps.
 # set -Ux ZDOTDIR "$XDG_CONFIG_HOME/zsh"
@@ -51,7 +54,7 @@ set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 # set -U fish_color_param 82aaff
 # set -U fish_color_quote c3e88d
 # set -U fish_color_redirection f78c6a
-# set -U fish_color_search_match c792ea --background=black
+# set -U fish_color_search_match c792ea --background=383c43
 # set -U fish_color_selection c792ea --background=black
 # set -U fish_color_status ff5370
 # set -U fish_color_user c3e88d
@@ -65,7 +68,7 @@ set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 # set -U fish_pager_color_secondary_completion
 # set -U fish_pager_color_secondary_description
 # set -U fish_pager_color_secondary_prefix
-# set -U fish_pager_color_selected_background --background=black
+# set -U fish_pager_color_selected_background --background=383c43
 # set -U fish_pager_color_selected_completion
 # set -U fish_pager_color_selected_description
 # set -U fish_pager_color_selected_prefix

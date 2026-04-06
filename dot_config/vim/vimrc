@@ -1,1 +1,4 @@
 set viminfofile=$HOME/.config/vim/viminfo
+
+# Fuzzy Finder
+set rtp+=/opt/homebrew/opt/fzf

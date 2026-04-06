@@ -1,6 +1,7 @@
 # Shell
 command = /opt/homebrew/bin/fish -l -i
 shell-integration = fish
+split-inherit-working-directory = true
 tab-inherit-working-directory = true
 working-directory = home
 

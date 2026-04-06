@@ -1,5 +1,2 @@
 # Initialise auto-completion
 autoload -Uz compinit && compinit
-
-# Mole
-if output="$(mole completion zsh 2>/dev/null)"; then eval "$output"; fi

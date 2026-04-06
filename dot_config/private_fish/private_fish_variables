@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export RIPGREP_CONFIG_PATH:/Users/pingshunhuangalex/\x2econfig/ripgrep/config
 SETUVAR --export STARSHIP_CONFIG:/Users/pingshunhuangalex/\x2econfig/starship/starship\x2etoml
 SETUVAR --export STARSHIP_CONFIG_HOME:/Users/pingshunhuangalex/\x2econfig/starship
 SETUVAR --export STARSHIP_TRANSIENT_CONFIG:/Users/pingshunhuangalex/\x2econfig/starship/starship\x2dtransient\x2etoml

@@ -19,6 +19,9 @@ set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 # set -Ux STARSHIP_CONFIG "$STARSHIP_CONFIG_HOME/starship.toml"
 # set -Ux STARSHIP_TRANSIENT_CONFIG "$STARSHIP_CONFIG_HOME/starship-transient.toml"
 
+# # Ripgrep
+# set -Ux --unpath RIPGREP_CONFIG_PATH "$XDG_CONFIG_HOME/ripgrep/config"
+
 # # Zsh
 # # NOTE: Fish doesn't use Zsh variables. Keep them for other apps.
 # set -Ux ZDOTDIR "$XDG_CONFIG_HOME/zsh"

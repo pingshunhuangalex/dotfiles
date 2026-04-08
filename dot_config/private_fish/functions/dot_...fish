@@ -1,3 +1,3 @@
-function ... --wraps='cd ../../' --description 'Move two levels up in your folder hierarchy'
+function ... --wraps='cd ../../' --description 'Move 2 levels up in your folder hierarchy'
     cd ../../ $argv
 end

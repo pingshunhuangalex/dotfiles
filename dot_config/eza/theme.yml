@@ -1,0 +1,9 @@
+filekinds:
+    symlink:
+        foreground: '#f5bde6'
+
+octal:
+    foreground: '#c792ea'
+
+symlink_path:
+    foreground: '#f5bde6'

@@ -22,8 +22,11 @@ set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 # # Ripgrep
 # set -Ux --unpath RIPGREP_CONFIG_PATH "$XDG_CONFIG_HOME/ripgrep/config"
 
-# # Fuzzy Finder
+# # Fzf
 # set -Ux FZF_DEFAULT_OPTS_FILE "$XDG_CONFIG_HOME/fzf/config"
+
+# # Eza
+# set -Ux EZA_CONFIG_DIR "$XDG_CONFIG_HOME/eza"
 
 # # Zsh
 # # NOTE: Fish doesn't use Zsh variables. Keep them for other apps.

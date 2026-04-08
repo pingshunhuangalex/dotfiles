@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export EZA_CONFIG_DIR:/Users/pingshunhuangalex/\x2econfig/eza
 SETUVAR --export FZF_DEFAULT_OPTS_FILE:/Users/pingshunhuangalex/\x2econfig/fzf/config
 SETUVAR --export RIPGREP_CONFIG_PATH:/Users/pingshunhuangalex/\x2econfig/ripgrep/config
 SETUVAR --export STARSHIP_CONFIG:/Users/pingshunhuangalex/\x2econfig/starship/starship\x2etoml

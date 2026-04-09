@@ -1,6 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EZA_CONFIG_DIR:/Users/pingshunhuangalex/\x2econfig/eza
+SETUVAR --export FZF_ALT_C_OPTS:\x2d\x2dwalker\x2dskip\x20\x2egit\x2cnode_modules\x2ctarget\x20\x2d\x2dpreview\x20\x27eza\x20\x2d\x2dclassify\x20\x2d\x2dcolor\x3dalways\x20\x2d\x2ddereference\x20\x2d\x2dgroup\x2ddirectories\x2dfirst\x20\x2d\x2dicons\x20\x2d\x2dno\x2dquotes\x20\x2d\x2dtree\x20\x2d\x2dlevel\x202\x20\x7b\x7d\x20\x7c\x20head\x20\x2d200\x27
+SETUVAR --export FZF_CTRL_R_OPTS:\x2d\x2dexact\x20\x2d\x2dwith\x2dnth\x201\x2c3\x2e\x2e\x20\x2d\x2dbind\x20\x27alt\x2dt\x3achange\x2dwith\x2dnth\x282\x2e\x2e\x7c3\x2e\x2e\x7c1\x2c3\x2e\x2e\x29\x27
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dtype\x20f\x20\x2d\x2dstrip\x2dcwd\x2dprefix\x20\x2d\x2dhidden\x20\x2d\x2dexclude\x20\x2egit
 SETUVAR --export FZF_DEFAULT_OPTS_FILE:/Users/pingshunhuangalex/\x2econfig/fzf/config
 SETUVAR --export RIPGREP_CONFIG_PATH:/Users/pingshunhuangalex/\x2econfig/ripgrep/config
 SETUVAR --export STARSHIP_CONFIG:/Users/pingshunhuangalex/\x2econfig/starship/starship\x2etoml

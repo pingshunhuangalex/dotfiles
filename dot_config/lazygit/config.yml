@@ -1,0 +1,29 @@
+gui:
+    authorColors:
+        'Pingshun Huang': '#c792ea'
+        '*': '#82aaff'
+    timeFormat: '2006-01-02 03:04 PM'
+    shortTimeFormat: '03:04 PM'
+    theme:
+        activeBorderColor:
+            - '#c792ea'
+            - bold
+        selectedLineBgColor:
+            - '#383c43'
+    fileTreeSortOrder: foldersFirst
+    showNumstatInFilesView: true
+    nerdFontsVersion: '3'
+    showBranchCommitHash: true
+    showDivergenceFromBaseBranch: arrowAndNumber
+
+git:
+    pagers:
+        - pager: delta --dark --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}" --line-numbers --paging=never --side-by-side
+    commit:
+        signOff: true
+    parseEmoji: true
+
+os:
+    editPreset: 'vscode'
+
+disableStartupPopups: true

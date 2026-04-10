@@ -24,12 +24,17 @@ set -gx SSH_AUTH_SOCK "$HOME/.bitwarden-ssh-agent.sock"
 
 # # Fzf
 # set -Ux FZF_DEFAULT_OPTS_FILE "$XDG_CONFIG_HOME/fzf/config"
-# set -Ux FZF_DEFAULT_COMMAND 'fd --type f --strip-cwd-prefix --hidden --exclude .git'
+# set -Ux FZF_DEFAULT_COMMAND "fd --type f --strip-cwd-prefix --hidden --exclude .git"
 # set -Ux FZF_CTRL_R_OPTS "--exact --with-nth 1,3.. --bind 'alt-t:change-with-nth(2..|3..|1,3..)'"
 # set -Ux FZF_ALT_C_OPTS "--walker-skip .git,node_modules,target --preview 'eza --classify --color=always --dereference --group-directories-first --icons --no-quotes --tree --level 2 {} | head -200'"
 
 # # Eza
 # set -Ux EZA_CONFIG_DIR "$XDG_CONFIG_HOME/eza"
+
+# # Editor
+# set -Ux EDITOR "nvim"
+# set -Ux GIT_EDITOR "nvim"
+# set -Ux VISUAL "code --wait"
 
 # # Zsh
 # # NOTE: Fish doesn't use Zsh variables. Keep them for other apps.

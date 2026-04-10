@@ -2,18 +2,11 @@
 	sort = -committerdate
 [checkout]
 	defaultRemote = origin
-[color]
-    ui = true
 [commit]
     gpgSign = true
     verbose = true
 [core]
-    pager = delta
-[delta]
-    dark = true
-	line-numbers = true
-    navigate = true
-    side-by-side = true
+    editor = nvim
 [diff]
     algorithm = histogram
     colorMoved = default
@@ -31,14 +24,13 @@
 	allowedSignersFile = ~/.ssh/allowed_signers
 [help]
     autocorrect = 10
+[include]
+    path = ~/.config/git/delta.config
+    path = ~/.config/git/theme.config
 [init]
     defaultbranch = main
-[interactive]
-    diffFilter = delta --color-only
 [log]
     date = iso
-[merge]
-    conflictstyle = zdiff3
 [pull]
     rebase = true
 [push]

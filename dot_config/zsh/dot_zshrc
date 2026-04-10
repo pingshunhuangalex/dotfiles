@@ -1,2 +1,8 @@
 # Initialise auto-completion
 autoload -Uz compinit && compinit
+
+# Zoxide
+eval "$(zoxide init zsh)"
+
+# Fzf
+source <(fzf --zsh)

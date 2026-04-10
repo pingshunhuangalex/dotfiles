@@ -1,12 +1,24 @@
 {{- $email := "alex.g.huang@gmail.com" -}}
-{{- $shell := "/opt/homebrew/bin/fish" -}}
+{{- $shell := "fish" -}}
+{{- $editor := "vscode" -}}
 
+{{- if (and (eq .chezmoi.os "darwin") (eq $shell "fish")) -}}
 [cd]
-    command = {{ $shell | quote }}
+    command = "/opt/homebrew/bin/fish"
     args = ["-l", "-i"]
+{{- end -}}
 
 [data]
     email = {{ $email | quote }}
 
+{{- if eq $editor "vscode" -}}
+[edit]
+    command = "code"
+    args = ["--wait"]
+{{- end -}}
+
 [git]
     autoAdd = true
+
+[github]
+    refreshPeriod = "12h"

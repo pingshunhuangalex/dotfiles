@@ -18,7 +18,9 @@
 {{- end -}}
 
 [git]
-    autoAdd = true
+    autoCommit = true
+    commitMessageTemplate = "{{ promptString \"Commit message\" }}"
+    autoPush = true
 
 [github]
     refreshPeriod = "12h"

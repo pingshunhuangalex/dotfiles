@@ -9,7 +9,7 @@ gui:
             - '#c792ea'
             - bold
         selectedLineBgColor:
-            - '#383c43'
+            - '#494d64'
     fileTreeSortOrder: foldersFirst
     showNumstatInFilesView: true
     nerdFontsVersion: '3'

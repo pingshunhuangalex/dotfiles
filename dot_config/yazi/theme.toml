@@ -1,0 +1,72 @@
+"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+
+[mgr]
+    cwd = { fg = "blue" }
+    symlink_target = { italic = false }
+    marker_selected = { fg = "#c792ea", bg = "#c792ea" }
+    count_selected = { fg = "#181926", bg = "#c792ea" }
+    border_style = { fg = "#383c43" }
+
+[tabs]
+    active = { fg = "#181926", bg = "#b7bdf8", bold = true }
+    inactive = { fg = "#b7bdf8", bg = "darkgray" }
+    sep_inner = { open = "", close = "" }
+
+[mode]
+    normal_main = { fg = "#181926", bg = "#c792ea", bold = true }
+    normal_alt = { fg = "#b7bdf8", bg = "darkgray" }
+    select_main = { fg = "#181926", bg = "red", bold = true }
+    select_alt = { fg = "#b7bdf8", bg = "darkgray" }
+    unset_main = { fg = "#181926", bg = "red", bold = true }
+    unset_alt = { fg = "#b7bdf8", bg = "darkgray" }
+
+[indicator]
+    parent = { fg = "#c792ea", bg = "#494d64" }
+    current = { fg = "#c792ea", bg = "#494d64" }
+    preview = { underline = false }
+
+[confirm]
+    border = { fg = "#c792ea" }
+    title = { fg = "#c792ea" }
+    btn_yes = { fg = "#c792ea", bg = "#494d64" }
+
+[spot]
+    border = { fg = "#c792ea" }
+    title = { fg = "#c792ea" }
+    tbl_col = { fg = "yellow" }
+    tbl_cell = { fg = "#c792ea", bg = "#494d64" }
+
+[input]
+    border = { fg = "#c792ea" }
+    selected = { fg = "#c792ea", bg = "#494d64" }
+
+[cmp]
+    border = { fg = "#c792ea" }
+    active = { fg = "#c792ea", bg = "#494d64" }
+
+[tasks]
+    border = { fg = "#c792ea" }
+    hovered = { fg = "#c792ea", bg = "#494d64", bold = true }
+
+[help]
+    hovered = { fg = "#c792ea", bg = "#494d64", bold = true }
+    footer = { fg = "#c792ea", bg = "reset", bold = true }
+
+[icon]
+    prepend_dirs = [
+        { name = ".config", text = "", fg = "#f5a97f" },
+        { name = ".git", text = "", fg = "#f5a97f" },
+        { name = ".github", text = "", fg = "#f5a97f" },
+        { name = ".npm", text = "", fg = "#f5a97f" },
+        { name = "Desktop", text = "", fg = "blue" },
+        { name = "Documents", text = "󰈙", fg = "blue" },
+        { name = "Downloads", text = "", fg = "blue" },
+        { name = "Library", text = "", fg = "blue" },
+        { name = "Movies", text = "󰿎", fg = "blue" },
+        { name = "Music", text = "󰝚", fg = "blue" },
+        { name = "Pictures", text = "", fg = "blue" },
+        { name = "Public", text = "", fg = "blue" },
+        { name = "Videos", text = "", fg = "blue" },
+        { name = "SPHS", text = "󰲋", fg = "#c792ea" },
+    ]
+    prepend_conds = [{ if = "dir", text = "", fg = "blue" }]

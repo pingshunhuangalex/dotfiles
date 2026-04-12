@@ -1,5 +1,5 @@
 --border
---color=pointer:#c792ea,bg+:#383c43,hl:#f07178,hl+:#f78c6a
+--color=pointer:#c792ea,fg+:#c792ea,bg+:#494d64,hl:#f5a97f,hl+:#ed8796
 --height 40%
 --info=inline
 --style=full

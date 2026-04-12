@@ -18,7 +18,11 @@ palette = 12=#78a1f6
 palette = 13=#f2a9dd
 palette = 14=#63cbc0
 palette = 15=#b8c0e0
-selection-background = #383c43
-selection-foreground = #cad3f5
+search-background = #f5a97f
+search-foreground = #181926
+search-selected-background = #ed8796
+search-selected-foreground = #181926
+selection-background = #494d64
+selection-foreground = #c792ea
 split-divider-color = #383c43
 unfocused-split-fill = #1f2227

@@ -1,0 +1,9 @@
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
+[mgr]
+    prepend_keymap = [
+        { on = "q", run = "quit --no-cwd-file", desc = "Quit without outputting cwd-file" },
+        { on = "Q", run = "quit", desc = "Quit the process" },
+        { on = "z", run = "plugin zoxide", desc = "Jump to a directory via zoxide" },
+        { on = "Z", run = "plugin fzf", desc = "Jump to a file/directory via fzf" },
+    ]

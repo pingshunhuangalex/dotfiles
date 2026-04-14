@@ -12,6 +12,10 @@
 .ssh/agent/
 .ssh/known_hosts*
 
+# Aria2
+.config/aria2/*.log
+.config/aria2/*.session
+
 # Bitwarden
 .bitwarden-ssh-agent.sock
 

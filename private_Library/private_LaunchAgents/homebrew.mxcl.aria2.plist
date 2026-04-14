@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>homebrew.mxcl.aria2</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/opt/homebrew/opt/aria2/bin/aria2c</string>
+            <string>--conf-path</string>
+            <string>/Users/pingshunhuangalex/.config/aria2/aria2.conf</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true />
+        <key>KeepAlive</key>
+        <true />
+        <key>WorkingDirectory</key>
+        <string>/Users/pingshunhuangalex/Downloads</string>
+        <key>StandardErrorPath</key>
+        <string>/Users/pingshunhuangalex/.config/aria2/aria2.error.log</string>
+        <key>StandardOutPath</key>
+        <string>/Users/pingshunhuangalex/.config/aria2/aria2.out.log</string>
+    </dict>
+</plist>

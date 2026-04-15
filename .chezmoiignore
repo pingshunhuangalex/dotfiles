@@ -13,6 +13,7 @@
 .ssh/known_hosts*
 
 # Aria2
+.config/aria2/*.dat
 .config/aria2/*.log
 .config/aria2/*.session
 

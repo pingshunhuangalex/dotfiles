@@ -1,11 +1,11 @@
 if status is-interactive
     set -l interactive_files $XDG_CONFIG_HOME/fish/conf.d/interactive/*.fish
 
-    set -q interactive_files[1]; or return
+    if set -q interactive_files[1]
+        for file in $interactive_files
+            test -f $file; or continue
 
-    for file in $interactive_files
-        test -f $file; or continue
-
-        source $file
+            source $file
+        end
     end
 end

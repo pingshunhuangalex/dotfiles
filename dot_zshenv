@@ -12,9 +12,6 @@ export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/config"
 
 # Fzf
 export FZF_DEFAULT_OPTS_FILE="$XDG_CONFIG_HOME/fzf/config"
-export FZF_DEFAULT_COMMAND="fd --type f --strip-cwd-prefix --hidden --exclude .git"
-export FZF_CTRL_R_OPTS="--exact --with-nth 1,3.. --bind 'alt-t:change-with-nth(2..|3..|1,3..)'"
-export FZF_ALT_C_OPTS="--walker-skip .git,node_modules,target --preview 'eza --classify --color=always --dereference --group-directories-first --icons --no-quotes --tree --level 2 {} | head -200'"
 
 # Eza
 export EZA_CONFIG_DIR="$XDG_CONFIG_HOME/eza"

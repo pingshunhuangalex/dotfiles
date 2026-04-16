@@ -7,7 +7,10 @@ local function set_line_numbers(style)
     vscode.update_config("editor.lineNumbers", style, "global")
 end
 
--- 1. Switch to Relative when leaving Insert Mode
+-- Switch to Relative immediately on load
+set_line_numbers("relative")
+
+-- Switch to Relative when leaving Insert Mode
 vim.api.nvim_create_autocmd("InsertLeave", {
     group = group,
     callback = function()
@@ -15,7 +18,7 @@ vim.api.nvim_create_autocmd("InsertLeave", {
     end,
 })
 
--- 2. Switch to Absolute when entering Insert Mode
+-- Switch to Absolute when entering Insert Mode
 vim.api.nvim_create_autocmd("InsertEnter", {
     group = group,
     callback = function()

@@ -1,4 +1,4 @@
 set viminfofile=$HOME/.config/vim/viminfo
 
-# Fzf
+" Fzf
 set rtp+=/opt/homebrew/opt/fzf

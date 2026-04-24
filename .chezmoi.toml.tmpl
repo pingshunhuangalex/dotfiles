@@ -1,3 +1,4 @@
+{{- $hasArchive := true -}}
 {{- $email := "alex.g.huang@gmail.com" -}}
 {{- $shell := "fish" -}}
 {{- $editor := "vscode" -}}
@@ -9,6 +10,7 @@
 {{- end -}}
 
 [data]
+    hasArchive = {{ $hasArchive }}
     email = {{ $email | quote }}
 
 {{- if eq $editor "vscode" -}}

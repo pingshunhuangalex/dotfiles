@@ -13,9 +13,13 @@
 .ssh/known_hosts*
 
 # Aria2
+{{ if .hasArchive }}
 .config/aria2/*.dat
 .config/aria2/*.log
 .config/aria2/*.session
+{{ else }}
+.config/aria2/
+{{ end }}
 
 # Bitwarden
 .bitwarden-ssh-agent.sock

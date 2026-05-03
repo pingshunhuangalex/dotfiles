@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Which Key
+    {
+        "key": "backspace",
+        "command": "whichkey.show",
+        "when": "editorTextFocus && (neovim.mode == normal || neovim.mode == visual)",
+    },
+    {
+        "key": "backspace",
+        "command": "whichkey.show",
+        "when": "activeEditorGroupEmpty && focusedView == '' && !inputFocus",
+    },
+    {
+        "key": "backspace",
+        "command": "whichkey.show",
+        "when": "sideBarFocus && !inputFocus",
+    },
+]

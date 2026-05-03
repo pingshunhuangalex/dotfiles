@@ -1,0 +1,18 @@
+{
+    "remote.tunnels.access.preventSleep": true,
+    "security.workspace.trust.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredSettings": [
+        "-git.path",
+        "-js/ts.tsserver.npm.path",
+        "-js/ts.tsserver.pluginPaths",
+        "-workbench.welcomePage.walkthroughs.openOnInstall",
+        "-window.zoomLevel",
+    ],
+    "terminal.external.osxExec": "Ghostty.app",
+    "window.confirmBeforeClose": "keyboardOnly",
+    "window.newWindowDimensions": "inherit",
+    "window.newWindowProfile": "SPHS",
+    "window.restoreFullscreen": true,
+    "window.titleBarStyle": "custom",
+}

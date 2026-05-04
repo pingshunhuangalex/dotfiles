@@ -3,6 +3,7 @@ vim.g.maplocalleader = " "
 
 require("settings")
 require("keymaps")
+require("smart-update")
 
 if vim.g.vscode then
     require("vs-code.settings")

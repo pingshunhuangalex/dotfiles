@@ -1,0 +1,5 @@
+conds
+darkgray
+Linemode
+translit
+yazi

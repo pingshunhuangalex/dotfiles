@@ -1,0 +1,17 @@
+expandtab
+ignorecase
+inccommand
+keymap
+keymaps
+mapleader
+maplocalleader
+nohlsearch
+noremap
+nvim
+relativenumber
+shiftwidth
+showcmd
+smartcase
+timeoutlen
+undofile
+unnamedplus

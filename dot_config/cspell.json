@@ -1,0 +1,124 @@
+{
+    "language": "en, en-GB",
+    "dictionaries": [
+        "Aria2",
+        "Chezmoi",
+        "Eza",
+        "Fish",
+        "Ghostty",
+        "Git",
+        "Homebrew",
+        "Lazygit",
+        "Mole",
+        "Neovim",
+        "SPHS",
+        "Starship",
+        "Theme",
+        "Vim",
+        "Yazi",
+        "Zsh"
+    ],
+    "dictionaryDefinitions": [
+        {
+            "name": "Aria2",
+            "path": "./cspell/aria2.txt",
+            "addWords": true
+        },
+        {
+            "name": "Chezmoi",
+            "path": "./cspell/chezmoi.txt",
+            "addWords": true
+        },
+        {
+            "name": "Eza",
+            "path": "./cspell/eza.txt",
+            "addWords": true
+        },
+        {
+            "name": "Fish",
+            "path": "./cspell/fish.txt",
+            "addWords": true
+        },
+        {
+            "name": "Ghostty",
+            "path": "./cspell/ghostty.txt",
+            "addWords": true
+        },
+        {
+            "name": "Git",
+            "path": "./cspell/git.txt",
+            "addWords": true
+        },
+        {
+            "name": "Homebrew",
+            "path": "./cspell/homebrew.txt",
+            "addWords": true
+        },
+        {
+            "name": "Lazygit",
+            "path": "./cspell/lazygit.txt",
+            "addWords": true
+        },
+        {
+            "name": "Mole",
+            "path": "./cspell/mole.txt",
+            "addWords": true
+        },
+        {
+            "name": "Neovim",
+            "path": "./cspell/nvim.txt",
+            "addWords": true
+        },
+        {
+            "name": "SPHS",
+            "path": "./cspell/sphs.txt",
+            "addWords": true
+        },
+        {
+            "name": "Starship",
+            "path": "./cspell/starship.txt",
+            "addWords": true
+        },
+        {
+            "name": "Theme",
+            "path": "./cspell/theme.txt",
+            "addWords": true
+        },
+        {
+            "name": "Vim",
+            "path": "./cspell/vim.txt",
+            "addWords": true
+        },
+        {
+            "name": "Yazi",
+            "path": "./cspell/yazi.txt",
+            "addWords": true
+        },
+        {
+            "name": "Zsh",
+            "path": "./cspell/zsh.txt",
+            "addWords": true
+        }
+    ],
+    "ignorePaths": [
+        "**/*.boltdb",
+        "**/*.dat",
+        "**/*.log",
+        "**/*.session",
+        "**/mole/whitelist",
+        "*theme.fish",
+        ".git",
+        ".vscode",
+        ".vscode-insiders",
+        ".zcompdump",
+        ".zsh_history",
+        ".zsh_sessions",
+        ".zshDDPMenv",
+        "cspell",
+        "cspell.json",
+        "node_modules",
+        "package-lock.json",
+        "viminfo",
+        "vscode-extension"
+    ]
+}

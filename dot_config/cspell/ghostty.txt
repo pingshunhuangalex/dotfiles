@@ -1,0 +1,5 @@
+autohide
+colorspace
+ghostty
+keybind
+titlebar

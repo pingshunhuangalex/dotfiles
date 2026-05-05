@@ -1,0 +1,10 @@
+autosquash
+autostash
+committerdate
+conflictstyle
+defaultbranch
+emph
+fsckobjects
+rerere
+signingkey
+zdiff

@@ -1,0 +1,15 @@
+AOSC
+Artix
+daml
+guix
+haxe
+pulumi
+purescript
+raku
+rlang
+spack
+typst
+vimcmd
+virtualenv
+vlang
+xmake

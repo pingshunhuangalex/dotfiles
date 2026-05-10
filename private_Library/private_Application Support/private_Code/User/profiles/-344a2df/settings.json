@@ -586,6 +586,7 @@
         "**/temp/**": true,
         "**/tmp/**": true,
     },
+    "git.addAICoAuthor": "off",
     "git.allowForcePush": true,
     "git.autofetch": true,
     "git.autoStash": true,

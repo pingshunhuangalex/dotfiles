@@ -602,6 +602,7 @@
     "git.supportCancellation": true,
     "git.terminalGitEditor": true,
     "git.timeline.showUncommitted": true,
+    "git.useEditorAsCommitInput": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.codeLens.scopes": ["blocks", "containers", "document"],
     "gitlens.heatmap.coldColor": "#89ddf3",

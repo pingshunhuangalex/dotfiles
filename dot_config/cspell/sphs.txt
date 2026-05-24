@@ -6,5 +6,6 @@ Karabiner
 Pingshun
 pingshunhuangalex
 SPHS
+sphshps
 Wailbrew
 whichkey

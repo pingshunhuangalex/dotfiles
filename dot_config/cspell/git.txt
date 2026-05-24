@@ -5,6 +5,7 @@ conflictstyle
 defaultbranch
 emph
 fsckobjects
+gpgsign
 rerere
 signingkey
 zdiff

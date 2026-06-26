@@ -40,6 +40,9 @@
 # Raycast
 .config/raycast/
 
+# UV
+.config/uv/
+
 # Vim
 .config/vim/viminfo
 .viminfo

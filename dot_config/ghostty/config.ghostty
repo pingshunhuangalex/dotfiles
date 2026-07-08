@@ -63,4 +63,6 @@ quick-terminal-screen = mouse
 quick-terminal-size = 25%,50%
 
 # Keybindings
+keybind = cmd+enter=unbind
+keybind = ctrl+enter=unbind
 keybind = global:opt+escape=toggle_quick_terminal

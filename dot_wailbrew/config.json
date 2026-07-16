@@ -1,0 +1,16 @@
+{
+  "brewPath": "/opt/homebrew/bin/brew",
+  "gitRemote": "",
+  "bottleDomain": "",
+  "outdatedFlag": "",
+  "caskAppDir": "",
+  "customCaskOpts": "",
+  "customOutdatedArgs": "",
+  "adminUsername": "",
+  "proxy": "",
+  "landingTab": "updatable",
+  "noQuarantine": false,
+  "windowWidth": 1113,
+  "windowHeight": 1050,
+  "windowX": 795
+}

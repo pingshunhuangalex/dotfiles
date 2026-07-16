@@ -51,6 +51,7 @@
 [submodule]
 	recurse = true
 [tag]
+    gpgSign = true
 	sort = version:refname
 [transfer]
     fsckobjects = true

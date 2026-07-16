@@ -6,6 +6,7 @@ defaultbranch
 emph
 fsckobjects
 gpgsign
+keyid
 rerere
 signingkey
 zdiff

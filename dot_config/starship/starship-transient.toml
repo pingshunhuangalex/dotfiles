@@ -39,6 +39,7 @@ continuation_prompt = '[▹▸ ](dimmed green)'
     style = 'fg:crust bg:peach'
     read_only_style = 'fg:crust bg:peach'
     format = '[( $read_only)]($read_only_style)[ $path]($style)'
+    truncate_to_repo = true
     truncation_length = 3
     truncation_symbol = '…/'
 

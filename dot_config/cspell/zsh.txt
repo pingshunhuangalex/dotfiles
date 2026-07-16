@@ -1,2 +1,4 @@
+dgst
 zcompdump
 ZDOTDIR
+ZERR

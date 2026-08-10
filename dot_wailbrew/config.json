@@ -12,8 +12,9 @@
   "noQuarantine": false,
   "autoRelaunch": true,
   "autoCleanupAfterUpgrade": false,
+  "uninstallCaskWithZap": false,
   "windowWidth": 1113,
-  "windowHeight": 743,
+  "windowHeight": 807,
   "windowX": 753,
   "windowY": 132
 }

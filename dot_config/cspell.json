@@ -10,6 +10,7 @@
         "Homebrew",
         "Keebs",
         "Lazygit",
+        "Mac",
         "Mole",
         "Neovim",
         "SPHS",
@@ -63,6 +64,11 @@
         {
             "name": "Lazygit",
             "path": "./cspell/lazygit.txt",
+            "addWords": true
+        },
+        {
+            "name": "Mac",
+            "path": "./cspell/mac.txt",
             "addWords": true
         },
         {

@@ -1,0 +1,7 @@
+bootout
+controlcenter
+osascript
+pkill
+scpt
+scselect
+systempreferences

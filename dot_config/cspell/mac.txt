@@ -1,7 +1,11 @@
 bootout
 controlcenter
+listallnetworkservices
+networksetup
+NOPASSWD
 osascript
 pkill
 scpt
 scselect
+setnetworkserviceenabled
 systempreferences

@@ -2414,6 +2414,7 @@
         "editor.wordHighlightStrongBorder": "#c792ea50",
         "editorBracketMatch.background": "#c792ea50",
         "editorBracketMatch.border": "#c792ea80",
+        "editorCursor.background": "#000",
         "editorCursor.foreground": "#c792ea",
         "editorError.foreground": "#ff5370",
         "editorGutter.addedBackground": "#8bc34a",

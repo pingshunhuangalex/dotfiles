@@ -69,4 +69,7 @@
         { name = "Videos", text = "", fg = "blue" },
         { name = "SPHS", text = "󰲋", fg = "#c792ea" },
     ]
-    prepend_conds = [{ if = "dir", text = "", fg = "blue" }]
+    prepend_conds = [
+        { if = "dir", text = "", fg = "blue" },
+        { if = "!dir & hidden", text = "", fg = "darkgray" },
+    ]

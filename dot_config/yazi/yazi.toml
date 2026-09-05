@@ -5,7 +5,6 @@
     linemode = "size_and_mtime"
     show_hidden = true
     show_symlink = false
-    title_format = "{cwd}"
 
 [preview]
     wrap = "yes"

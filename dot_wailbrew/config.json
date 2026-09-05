@@ -13,8 +13,25 @@
   "autoRelaunch": true,
   "autoCleanupAfterUpgrade": false,
   "uninstallCaskWithZap": false,
+  "favorites": [
+    "bat",
+    "chezmoi",
+    "eza",
+    "fd",
+    "fish",
+    "fzf",
+    "git",
+    "git-delta",
+    "lazygit",
+    "mole",
+    "neovim",
+    "ripgrep",
+    "starship",
+    "yazi",
+    "zoxide"
+  ],
   "windowWidth": 1113,
-  "windowHeight": 903,
+  "windowHeight": 935,
   "windowX": 804,
   "windowY": 71
 }

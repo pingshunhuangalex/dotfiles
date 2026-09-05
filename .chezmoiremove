@@ -1,6 +1,9 @@
-# Legacy Zsh sessions
-.zcompdump
-.zsh_sessions/
+# Legacy TaskTick backups
+.tasktick/
 
 # Legacy Vim info
 .viminfo
+
+# Legacy Zsh sessions
+.zcompdump
+.zsh_sessions/

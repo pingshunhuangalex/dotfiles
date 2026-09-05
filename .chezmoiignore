@@ -40,6 +40,9 @@
 # Raycast
 .config/raycast/
 
+# TaskTick
+.tasktick/
+
 # UV
 .config/uv/
 

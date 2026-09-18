@@ -28,8 +28,10 @@
     "ripgrep",
     "starship",
     "yazi",
-    "zoxide"
+    "zoxide",
+    "wailbrew"
   ],
+  "sortFavoritesToTop": true,
   "windowWidth": 1113,
   "windowHeight": 935,
   "windowX": 804,

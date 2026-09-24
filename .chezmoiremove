@@ -4,6 +4,9 @@
 # Legacy Vim info
 .viminfo
 
+# Legacy Wailbrew configs
+.wailbrew/
+
 # Legacy Zsh sessions
 .zcompdump
 .zsh_sessions/
